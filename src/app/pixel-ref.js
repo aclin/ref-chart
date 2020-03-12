@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 import {StandardChart} from 'components/StandardChart'
+import {FlexBox} from 'components/FlexBox'
 
 const RefAppContent = styled.div`
   padding: 16px;
@@ -13,6 +14,7 @@ class RefApp extends Component {
       <RefAppContent>
         <h1>Reference Chart</h1>
         <StandardChart />
+        <FlexBox />
       </RefAppContent>
     );
   }
